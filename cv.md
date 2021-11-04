@@ -1,7 +1,7 @@
 # Ihor Chekhunov #
 
 ## Phone: +380630677796 ##
-## Telegram: @IhorChekhunov ##
+###### Telegram: @IhorChekhunov ######
 ## Почта: scdesignk@gmail.com ##
 ## Stackoverflow: 14351456 ##
 ## GitLab: Raday ##
