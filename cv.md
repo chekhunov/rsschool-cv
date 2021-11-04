@@ -1,6 +1,6 @@
 # Ihor Chekhunov #
 
-###### Phone: +380630677796 ######
+* Phone: +380630677796 *
 ###### Telegram: @IhorChekhunov ######
 ###### Почта: scdesignk@gmail.com ######
 ###### Stackoverflow: 14351456 ######
