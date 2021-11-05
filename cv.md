@@ -1,5 +1,5 @@
 # Ihor Chekhunov
-###Frontend Developer
+### Frontend Developer
 ---
 
 ### Contact information:
