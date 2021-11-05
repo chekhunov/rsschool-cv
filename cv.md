@@ -9,7 +9,7 @@
 **Stackoverflow:** 14351456<br>
 **Dribbble:** Chekhunov<br>
 [GitLab](https://gitlab.com/Raday)<br>
-[GitHub](https://github.com/chekhunov)<br>  
+[GitHub](https://github.com/chekhunov)<br>
 [Trello](https://trello.com/bimbaba)<br>
 
 Контакты для связи
