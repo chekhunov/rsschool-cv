@@ -1,13 +1,16 @@
-# Ihor Chekhunov #
+# Ihor Chekhunov
+---
 
-* Phone: +380630677796 *
-###### Telegram: @IhorChekhunov ######
-###### Почта: scdesignk@gmail.com ######
-###### Stackoverflow: 14351456 ######
-###### GitLab: Raday ######
-###### GitHub: chekhunov ######
-###### Dribbble: Chekhunov ######
-###### Trello: trello.com/bimbaba ######
+### Contact information:
+** Phone:** +380630677796<br>
+** Почта:** scdesignk@gmail.com<br>
+** Telegram:** @IhorChekhunov<br> 
+** Stackoverflow:** 14351456<br>
+**Dribbble:** Chekhunov<br>
+[GitLab](https://gitlab.com/Raday)<br>
+[GitHub](https://github.com/chekhunov)<br>  
+[Trello](trello.com/bimbaba)<br>
+
 Контакты для связи
 Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
 Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
