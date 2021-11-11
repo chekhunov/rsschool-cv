@@ -40,7 +40,7 @@ JavaCore
 #### Other skills:
 
 Git / GitHub / Bitbucket / GitLab
-BEM (CSS), SVG(sprite), Icomoon
+BEM (CSS), SVG(sprite), Icomoon,
 layout of letters ie5
 MySQL / NoSQL
 JSON / JSON RPC
@@ -50,7 +50,58 @@ Jira, Trello, Sonar
 
 ### Code examples:
 
-Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
+**Connection**))
+Cross-Origin Resource Sharing (CORS) — A mechanism that uses additional HTTP headers to enable the user agent to receive permissions to access the selected resources from the server on the source (domain).
+
+```javascript
+const express = require('express');
+const cors = require('cors');
+
+const app = express();
+
+const corsOptions = {
+  origin: 'https://localhost:3000',
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
+```
+
+---
+
+### Work experience:
+
+#### Junior Frontend Developer
+
+**Aimix-Kharkov**
+
+- Frontend developer
+  - May 2021 - present (7 months)
+  - Laying Landing as an example kratom.chekhunov.info, finalization of the online store Kratomhelper.com Vue, Laravel, SQL, LESS, ICONMOON;Project Development as a REACT DeV + - Layout - React, Redux, SCSS, Iconmoon;
+
+JavaScript • HTML • CSS • React • Адаптивная верстка • БЭМ • SCSS • Vue.js • LESS • SVG • Redux
+
+---
+
+**IT-Cluster-Kharkov**
+
+- Frontend Developer.
+
+  - March 2021 - June 2021 (4 months)
+  - Development of the project of EcoSchool project with the support of Codeit.
+  - JavaScript · HTML · Adaptive layout · CSS · REACT · BEM · cross-traveler layout · Sass · Redux
+
+---
+
+**Fairtech Marketing-Kiev**
+
+- Markup DEV.
+
+  - October 2020 - March 2021 (6 months)
+  - Layout from scratch, editing ready-made sites on Gulp, refinement of sites on OpenCart and Wordpress.
+  - JavaScript · HTML · CSS · Adaptive Layout · JQuery · Gulp · WordPress · Sass · BEM · CrossBrawser Layout
+
+может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
 Образование (включая курсы, семинары, лекции, онлайн-обучение)
 
 Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
