@@ -117,7 +117,7 @@ app.use(cors(corsOptions));
 [news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
 
-**Now you work on it**<br>
+**Now i work on it**<br>
 [molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
 Образование (включая курсы, семинары, лекции, онлайн-обучение)
