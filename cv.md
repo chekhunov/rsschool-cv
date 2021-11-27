@@ -122,6 +122,9 @@ app.use(cors(corsOptions));
 
 Образование (включая курсы, семинары, лекции, онлайн-обучение)
 
+### Codewars
+[codewars](https://www.codewars.com/users/chekhunov)
+
 ### English
 
 English level A-2
