@@ -120,15 +120,11 @@ app.use(cors(corsOptions));
 
 <br><br>
 
-**Now i work on it**<br>
 [molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
 ### Codewars
 
 [codewars](https://www.codewars.com/users/chekhunov)
-
-**Now you work on it**<br>
-[molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
 ### English
 
