@@ -69,13 +69,25 @@ app.use(cors(corsOptions));
 
 ### Work experience:
 
-#### Junior Frontend Developer
+#### Frontend Developer
+
+**WebIProg-Kharkov**
+
+- Frontend developer
+
+  - December 2021 - present (1 months)
+
+  - JavaScript, Vue, React, ShopWare, SQL, ICONMOON;
+
+  - HTML • CSS • БЭМ • SCSS • LESS • SVG •
+
+  ***
 
 **Aimix-Kharkov**
 
 - Frontend developer
 
-  - May 2021 - present (8 months)
+  - May 2021 - December 2021 (8 months)
 
   - Laying Landing as an example kratom.chekhunov.info, finalization of the online store Kratomhelper.com Vue, Laravel, SQL, LESS, ICONMOON;Project Development as a REACT DeV + - Layout - React, Redux, SCSS, Iconmoon;
 
