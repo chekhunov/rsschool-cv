@@ -76,6 +76,7 @@ app.use(cors(corsOptions));
 - Frontend developer
 
   - May 2021 - present (8 months)
+  
   - Laying Landing as an example kratom.chekhunov.info, finalization of the online store Kratomhelper.com Vue, Laravel, SQL, LESS, ICONMOON;Project Development as a REACT DeV + - Layout - React, Redux, SCSS, Iconmoon;
 
   - JavaScript • HTML • CSS • React • Адаптивная верстка • БЭМ • SCSS • Vue.js • LESS • SVG • Redux
@@ -117,12 +118,16 @@ app.use(cors(corsOptions));
 [news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
 
+
 **Now i work on it**<br>
 [molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
 ### Codewars
 
 [codewars](https://www.codewars.com/users/chekhunov)
+
+**Now you work on it**<br>
+[molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
 ### English
 
