@@ -6,114 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Home</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="style.css?v=0.4">
+  <link rel="stylesheet" href="css/style.min.css?v=0.4">
 </head>
 
 
 <body id="body">
 
-  <header id="header-section" class="header wow animate__fadeInDown" data-wow-duration="1s">
-
-  <div class="container container--big">
-
-    <div class="header__top">
-
-      <a class="logo" href="#body">
-        <img class="logo__img" src="./images/logo.png" alt="logo image">
-      </a>
-
-      <nav class="menu">
-
-        <ul class="menu__list">
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#about">
-              About me
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#skills">
-              Skills
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#process">
-              Layout
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#portfolio">
-              Portfolio
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-            <a class="menu__link" href="index.html#connection">
-              Contacts
-            </a>
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#connection">
-              Request
-            </a>
-
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <div class="menu-nav">
-
-        <button class="menu-nav__btn" href="#">
-
-          <svg class="menu-nav__find">
-            <use xlink:href="./images/sprite.svg#find"></use>
-          </svg>
-
-        </button>
-
-        <button class="menu-nav__popup">
-            <svg class="menu-nav__ellipse" xmlns="http://www.w3.org/2000/svg" width="20.03" height="20.031"><path d="M2.15 4.287a2.146 2.146 0 112.14-2.145 2.145 2.145 0 01-2.14 2.145zm0 7.869a2.146 2.146 0 112.14-2.147 2.146 2.146 0 01-2.14 2.147zm0 7.868a2.146 2.146 0 112.14-2.146 2.145 2.145 0 01-2.14 2.146zm7.86-15.737a2.146 2.146 0 112.15-2.145 2.143 2.143 0 01-2.15 2.145zm0 7.869a2.146 2.146 0 112.15-2.147 2.144 2.144 0 01-2.15 2.147zm0 7.868a2.146 2.146 0 112.15-2.146 2.143 2.143 0 01-2.15 2.146zm7.87-15.737a2.146 2.146 0 112.15-2.145 2.143 2.143 0 01-2.15 2.145zm0 7.869a2.146 2.146 0 112.15-2.147 2.144 2.144 0 01-2.15 2.147zm0 7.868a2.146 2.146 0 112.15-2.146 2.143 2.143 0 01-2.15 2.146z" fill="#fff" fill-rule="evenodd"/></svg>
-        </button>
-
-      </div>
-
-    </div>
-
-    <div class="header__popup">
-
-      <form class="header__search" action="#">
-
-        <label for="sub-search" class="header__label">Search</label>
-        <input id="sub-search" class="header__form-input" type="search" name="search" placeholder="Search" required>
-
-        <button class="header__form-btn" type="submit">Search</button>
-
-      </form>
-
-    </div>
-
-  </div>
-
-</header>
+  @@include('../components/_header.html')
 
   <main class="main">
 
-    <section id="top-section" class="top" style="background-image: url('./images/bg.jpg');">
+    <section id="top-section" class="top" style="background-image: url('images/bg.jpg');">
 
       <div class="container">
 
@@ -125,13 +28,13 @@
 
           <p class="top__text wow animate__fadeIn" data-wow-duration="4s">
 
-            Hello <br>
-            I am Ihor Chekhunov
+            Привет <br>
+            я Игорь Чехунов
 
           </p>
 
           <h1 class="top__title wow animate__bounceInLeft">
-            Markup developer
+            HTML верстальщик
           </h1>
 
         </div>
@@ -194,7 +97,7 @@
 
             <h2 class="title ">
 
-              About me
+              Обо мне
 
             </h2>
 
@@ -231,25 +134,25 @@
             </code>
 
             <p class="about__text wow animate__fadeInLeft">
-              Greetings to your site-portfolio. My name is Igor. I live in the city of Kharkov. Engaged
-              HTML layout
-              sites. I have
-              Fully cross-browser, adaptive and valid layout. To ensure the fulfillment of requirements
-              Presented
-              To layout
-              Site in the process of working on a project I use Gulp project collector to automate the layout process,
-              Preprocessors
-              LESS / SASS for accelerated site styling and more flexible code, Pixel Perfect template for layout,
-              Coincident
-              with a pixel-provided pixel layout, BEM, JQuery, SmartGrid and Media requests for adaptive
-              Layers
-              Site.
-              The site dynamics is organized by the tuned plugins. At the end of the work, the display is checked
-              Layers
-              In various browsers (Google, Safari, Opera, Firefox, Brave and TP.) On different devices (laptop,
-              tablet,
-              Mobile phone), the code is checked by the validator for compliance with standards and eliminate identified
-              Errors.
+              Приветствую Вас на своем сайте-портфолио. Меня зовут Игорь. Живу в городе Харькове. Занимаюсь
+              HTML-версткой
+              сайтов. У меня
+              полностью кроссбраузерная, адаптивная и валидная верстка. Для обеспечения выполнения требований,
+              предъявляемых
+              к верстке
+              сайта в процессе работы над проектом я использую сборщик проектов Gulp для автоматизации процесса верстки,
+              препроцессоры
+              Less/Sass для ускоренной стилизации сайта и более гибкого кода, шаблонизатор Pixel Perfect для верстки,
+              совпадающей
+              с предоставленным макетом «пиксель в пиксель», БЭМ, Jquery, Smartgrid и media-запросы для адаптивной
+              верстки
+              сайта.
+              Динамика сайта организуется настроенными плагинами. В конце работы осуществляется проверка отображения
+              верстки
+              в различных браузерах (Google, Safari, Opera, Firefox, Brave и тп.) на разных устройствах (ноутбук,
+              планшет,
+              мобильный телефон), код проверяется валидатором на соответствие стандартам и устраняются выявленные
+              ошибки.
             </p>
 
             <code class="page-code__text page-code__text--end">
@@ -274,7 +177,7 @@
 
 
 
-    <div class="myphoto wow animate__backInRight" style="background-image: url('./images/user.jpg');">
+    <div class="myphoto wow animate__backInRight" style="background-image: url('images/user.jpg');">
 
       images
 
@@ -333,7 +236,7 @@
 
           <h2 class="title skills__title">
 
-            My skills
+            Мои навыки
 
           </h2>
 
@@ -472,7 +375,7 @@
               <ul class="skills__list skills__list--aliceblue wow animate__lightSpeedInLeft" data-wow-duration="1s">
 
                 <li class="skills__item">
-                  BEM Methodology
+                  Методология БЭМ
                 </li>
 
                 <li class="skills__item">
@@ -480,19 +383,19 @@
                 </li>
 
                 <li class="skills__item">
-                  Animation, Hover-effects without JS
+                  Анимация, hover-эффекты без JS
                 </li>
 
                 <li class="skills__item">
-                  Structured code
+                  Структутированный код
                 </li>
 
                 <li class="skills__item">
-                  Semantic layout
+                  Семантичная верстка
                 </li>
 
                 <li class="skills__item">
-                  Valid, cross-browser code
+                  Валидный, кроссбраузерный код
                 </li>
 
               </ul>
@@ -621,27 +524,27 @@
 
                 <li class="skills__item">
 
-               Customized jQuery plugins
+                  Настроенные JQuery плагины
 
                 </li>
 
-                <li class = "skills__item">
+                <li class="skills__item">
 
-                  API Cards - Yandex
+                  API Карт - Яндекс
 
-                </ li>
+                </li>
 
-                <li class = "skills__item">
+                <li class="skills__item">
 
-                  Commented code
+                  Комментируемый код
 
-                </ li>
+                </li>
 
-                <li class = "skills__item">
+                <li class="skills__item">
 
-                  JSDOC for javascript.
+                  JSDoc для JavaScript
 
-                </ li>
+                </li>
 
               </ul>
 
@@ -767,24 +670,24 @@
 
               <ul class="skills__list skills__list--aliceblue wow animate__lightSpeedInLeft" data-wow-duration="1s">
 
-                <li class = "skills__item">
-                  Fast project unfolding
+                <li class="skills__item">
+                  Быстрое разворачивание проекта
                 </li>
 
-                <li class = "skills__item">
-                  Automation of the process of layout
+                <li class="skills__item">
+                  Автоматизация процесса верстки
                 </li>
 
-                <li class = "skills__item">
-                  Composition of preprocessors
+                <li class="skills__item">
+                  Компиляция препроцессоров
                 </li>
 
-                <li class = "skills__item">
-                  Using templateizers
+                <li class="skills__item">
+                  Использование шаблонизаторов
                 </li>
 
-                <li class = "skills__item">
-                  Minification of files
+                <li class="skills__item">
+                  Минификация файлов
                 </li>
 
               </ul>
@@ -910,20 +813,21 @@
               </code>
 
               <ul class="skills__list skills__list--aliceblue wow animate__lightSpeedInLeft" data-wow-duration="1s">
-                <li class = "skills__item">
-                  High Site Development Speed
+
+                <li class="skills__item">
+                  Высокая скорость разработки сайта
                 </li>
 
-                <li class = "skills__item">
-                  Site crossbrusher and adaptability
+                <li class="skills__item">
+                  Кроссбраузерность и адаптивность сайта
                 </li>
 
-                <li class = "skills__item">
-                  Ready templates of site elements
+                <li class="skills__item">
+                  Готовые шаблоны элементов сайта
                 </li>
 
-                <li class = "skills__item">
-                  Optimized navigation
+                <li class="skills__item">
+                  Оптимизированная навигация
                 </li>
 
               </ul>
@@ -1052,31 +956,31 @@
 
                 <li class="skills__item">
 
-                  Accelerated Site Stylization
+                  Ускоренная стилизация сайта
 
                 </li>
 
                 <li class="skills__item">
 
-                  More flexible code
+                  Более гибкий код
 
                 </li>
 
                 <li class="skills__item">
 
-                  Improved style logic
+                  Улучшенная логика стилей
 
                 </li>
 
                 <li class="skills__item">
 
-                  Simplified syntax
+                  Упрощенный синтаксис
 
                 </li>
 
                 <li class="skills__item">
 
-                  Nessing selectors without errors
+                  Вложенность селекторов без ошибок
 
                 </li>
 
@@ -1206,31 +1110,31 @@
 
                 <li class="skills__item">
 
-                  Cutting images from layout
+                  Нарезка изображений из макета
 
                 </li>
 
                 <li class="skills__item">
 
-                  Image Optimization for Web
+                  Оптимизация изображений для Web
 
                 </li>
 
                 <li class="skills__item">
 
-                  Export SVG images
+                  Экспорт SVG-изображений
 
                 </li>
 
                 <li class="skills__item">
 
-                  Export styles for accelerated layout
+                  Экспорт стилей для ускоренной верстки
 
                 </li>
 
                 <li class="skills__item">
 
-                  Creating sprites
+                  Создание спрайтов
 
                 </li>
 
@@ -1272,18 +1176,270 @@
 
         <div class="skills__certificats">
 
-          <img class="skills__img-certificat" src="./images/content/sertif/1.jpg" alt="images certificats">
+          <img class="skills__img-certificat" src="images/content/sertif/1.jpg" alt="images certificats">
 
-          <img class="skills__img-certificat skills__img-certificat--from" src="./images/content/sertif/2.png"
+          <img class="skills__img-certificat skills__img-certificat--from" src="images/content/sertif/2.png"
             alt="images certificats">
 
-          <img class="skills__img-certificat" src="./images/content/sertif/3.png" alt="images certificats">
+          <img class="skills__img-certificat" src="images/content/sertif/3.png" alt="images certificats">
 
         </div>
 
       </div>
 
     </section>
+
+    <section class="process" id="process">
+
+      <div class="container">
+
+        <div class="process__wrapper">
+
+          <div class="about__inner-title">
+
+            <code class="page-code">
+
+                      &lt;div 
+                    
+                      <code class="page-code__color-class">
+                     
+                        class
+                    
+                      </code>
+
+            =&quot;
+
+            <code class="page-code__color-name">
+
+                        process
+                 
+                      </code>
+
+            &quot;&gt;
+
+            </code>
+
+            <code class="page-code__title">
+
+                      &lt;h2 
+                    
+                      <code class="page-code__color-class">
+                                
+                        class
+                      
+                      </code>
+
+            =&quot;
+
+            <code class="page-code__color-name">
+
+                        title
+                           
+                      </code>
+
+            &quot;&gt;
+
+            </code>
+
+            <h2 class="title process__title">
+
+              Процесс выполнения верстки
+
+            </h2>
+
+            <code class="page-code__title">
+
+                      &lt;/h2&gt;
+        
+                    </code>
+
+          </div>
+
+          <div class="process__inner-code">
+
+            <code class="page-code page-code--process">
+
+                                &lt;div 
+                              
+                                <code class="page-code__color-class">
+                               
+                                  class
+                              
+                                </code>
+
+            =&quot;
+
+            <code class="page-code__color-name">
+
+                                  process__inner
+                           
+                                </code>
+
+            &quot;&gt;
+
+            </code>
+
+            <code class="page-code__box page-code__box--box">
+
+                                &lt;div 
+                              
+                                <code class="page-code__color-class">
+                               
+                                  class
+                              
+                                </code>
+
+            =&quot;
+
+            <code class="page-code__color-name">
+
+                                  process__item
+                           
+                                </code>
+
+            &quot;&gt;*6&gt;svg.process__icon
+
+            </code>
+
+          </div>
+
+          <span class="process__line wow animate__fadeInRightBig"></span>
+
+          <div class="process__inner">
+
+            <div class="process__item">
+
+              <div class="process__img-box wow animate__fadeInDownBig">
+
+                <svg class="process__cut">
+                  <use xlink:href="images/sprite.svg#cut"></use>
+                </svg>
+
+              </div>
+
+              <span class="process__title-img">
+
+                Работа с макетом
+
+              </span>
+
+            </div>
+
+            <div class="process__item">
+
+              <span class="process__title-img">
+
+                Верстка <br>
+                контента
+
+              </span>
+
+              <div class="process__img-box wow animate__fadeInUpBig">
+
+                <svg class="process__html">
+                  <use xlink:href="images/sprite.svg#html5"></use>
+                </svg>
+
+
+              </div>
+
+
+            </div>
+
+            <div class="process__item">
+
+              <div class="process__img-box wow animate__fadeInDownBig">
+
+                <svg class="process__css">
+                  <use xlink:href="images/sprite.svg#css"></use>
+                </svg>
+
+
+              </div>
+
+              <span class="process__title-img">
+
+                Стилизация сайта
+
+              </span>
+
+            </div>
+
+            <div class="process__item">
+
+              <span class="process__title-img">
+
+                Адаптивная верстка
+
+              </span>
+
+              <div class="process__img-box wow animate__fadeInUpBig">
+
+                <svg class="process__adapt">
+                  <use xlink:href="images/sprite.svg#adapt"></use>
+                </svg>
+
+              </div>
+
+
+            </div>
+
+            <div class="process__item">
+
+              <div class="process__img-box wow animate__fadeInDownBig">
+
+                <svg class="process__inte">
+                  <use xlink:href="images/sprite.svg#inte"></use>
+                </svg>
+
+
+              </div>
+
+              <span class="process__title-img">
+
+                Кроссбраузерность и PixelPerfect
+
+              </span>
+
+            </div>
+
+            <div class="process__item">
+
+              <span class="process__title-img">
+
+                Устранение ошибок
+
+              </span>
+
+              <div class="process__img-box wow animate__fadeInUpBig">
+
+                <svg class="process__danger">
+                  <use xlink:href="images/sprite.svg#danger"></use>
+                </svg>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="process__inner-codeend">
+
+          <code class="page-code page-code__box--codeend">
+
+                                                          &lt;/div&gt;
+                                                        
+                              </code>
+
+          <code class="page-code__box">
+
+                                                          &lt;/div&gt;
+                                                        
+                              </code>
+
+        </div>
 
         <div class="process__codebox">
 
@@ -1311,7 +1467,7 @@
 
           <h3 class="process__subtitle">
 
-            In the process of layout I use:
+            В процессе верстки использую:
 
           </h3>
 
@@ -1384,7 +1540,7 @@
                                                                                                                     </code>
 
           &quot;&gt;*11&gt;img.partners__img
-          [src="./images/content/
+          [src="images/content/
           partners/$.png"
           alt="partners
           images"]
@@ -1398,53 +1554,53 @@
           <ul class="partners__list">
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/1.png" alt="partner1">
+              <img class="partners__img" src="images/content/1.png" alt="partner1">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/2.jpg" alt="partner2">
+              <img class="partners__img" src="images/content/2.jpg" alt="partner2">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/3.jpg" alt="partner3">
+              <img class="partners__img" src="images/content/3.jpg" alt="partner3">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/4.png" alt="partner4">
+              <img class="partners__img" src="images/content/4.png" alt="partner4">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/5.jpeg" alt="partner5">
+              <img class="partners__img" src="images/content/5.jpeg" alt="partner5">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/6.jpg" alt="partner6">
+              <img class="partners__img" src="images/content/6.jpg" alt="partner6">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/7.png" alt="partner7">
+              <img class="partners__img" src="images/content/7.png" alt="partner7">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/8.jpg" alt="partner8">
+              <img class="partners__img" src="images/content/8.jpg" alt="partner8">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/9.png" alt="partner9">
+              <img class="partners__img" src="images/content/9.png" alt="partner9">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/10.png" alt="partner10">
+              <img class="partners__img" src="images/content/10.png" alt="partner10">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/11.png" alt="partner11">
+              <img class="partners__img" src="images/content/11.png" alt="partner11">
             </li>
 
           </ul>
 
         </div>
-        
+
         <div class="page-code__end">
 
           <code class="page-code__lilist page-code__lilist--end">
@@ -1479,6 +1635,7 @@
 
     <section class="portfolio" id="portfolio">
 
+      <!-- <div class="portfolio__wrapper" style="background-image: url('images/2bg.jpg');"> -->
       <div class="portfolio__wrapper">
 
         <div class="container" data-ref="portfolio">
@@ -1487,7 +1644,7 @@
 
             <h2 class="title portfolio__title">
 
-             My works
+              Мои работы
 
             </h2>
 
@@ -1495,116 +1652,13 @@
 
           <div class="category portfolio__category">
 
-            <button class="category__btn shrink-border" data-filter="all">
-              Everything
-            </button>
-            <button class="category__btn shrink-border" data-filter=".category-a">
-              Layout
-            </button>
-            <button class="category__btn shrink-border" data-filter=".category-f">
-              "Mobile First"
-            </button>
-            <button class="category__btn shrink-border" data-filter=".category-b">
-              Layout + React
-            </button>
-            <button class="category__btn shrink-border" data-filter=".category-c">
-              In work
-            </button>
+            @@include('../components/_category.html')
 
           </div>
 
           <div class="portfolio__inner">
 
-            <article class="card-portfolio mix category-a" href="#">
-
-  <a href="wawe-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/wawe-pp.jpg" alt="image wawe">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="marketing-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/marketing.jpg" alt="image marketing">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="suntour-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img card-portfolio__img--suntour" src="./images/content/portfolio/suntour.jpg"
-        alt="image suntour">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="glee-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/glee.jpg" alt="image glee">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="marcho-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/marcho.jpg" alt="image marcho">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="kratom-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/kratom.jpg" alt="image kratom">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-c" href="#">
-
-  <a href="bigstore-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/bigstore.png" alt="image bigstore">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="itcluster-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/itcluster.jpg" alt="image it cluster">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-f" href="#">
-
-  <a href="mobilefirst-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/mobilefirst.jpg" alt="image mobilefirst">
-    </div>
-  </a>
-
-</article>
+            @@include('../components/_card-project.html')
 
           </div>
 
@@ -1666,7 +1720,7 @@
 
           <h2 class="title process__connection">
 
-            Submit your application
+            Оставить заявку
 
           </h2>
 
@@ -1683,7 +1737,7 @@
           <address class="contact">
 
             <p class="contact__text contact__text--item">
-              You can contact me:
+              Вы можете связаться со мной:
             </p>
             <p class="contact__text">
               Viber, Telegram
@@ -1693,23 +1747,23 @@
               <a class="contact__link" href="tel:+380630677796">+3 8 063 067 77 96</a>
             </p>
             <p class="contact__text">
-              Ukraine, Kharkov
+              Украина, Харьков
             </p>
 
           </address>
 
           <form class="form">
 
-            <input class="form__input" type="text" placeholder="Name">
+            <input class="form__input" type="text" placeholder="Имя">
 
-            <input class="form__input" type="tel" placeholder="Telephone">
+            <input class="form__input" type="tel" placeholder="Телефон">
 
-            <textarea class="form__message" placeholder="Leave a message and I will contact you soon">
+            <textarea class="form__message" placeholder="Оставьте сообщение, и я свяжусь с Вами в ближайшее время">
                     </textarea>
 
             <button class="form__btn" type="submit">
 
-              send
+              Отправить
 
             </button>
 
@@ -1730,7 +1784,7 @@
           <li class="connection__item connection__item--down">
 
             <a class="connection__link connection__link--icon" href="./static/profile.pdf" target="_blank">
-              My resume
+              Моё резюме
             </a>
 
             <a class="connection__link connection__link--icon" href="./static/profile.pdf" download>
@@ -1744,26 +1798,7 @@
 
   </main>
 
-  <footer class="footer">
-
- 
-
-    <div class="footer__bottom">
-
-      <p class="footer__copy">
-        ©2021 CopyRight Example. All rights reserved.
-      </p>
-
-      <a class="footer__logo-rs" href="https://rs.school/js/">
-        <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.8 205.3"><style>.st0{fill:#fff}.st1{clip-path:url(#SVGID_2_)}.st2{clip-path:url(#SVGID_4_)}.st3{clip-path:url(#SVGID_6_)}.st4{clip-path:url(#SVGID_8_)}.st5{fill:#fff;stroke:#000;stroke-width:4;stroke-miterlimit:10}.st6{clip-path:url(#SVGID_8_)}.st6,.st7{fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10}.st8,.st9{clip-path:url(#SVGID_10_)}.st9{fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10}</style><title>rs_school_js</title><path d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"/><path d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"/><path d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"/><path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><g class="st1"><path transform="rotate(-37.001 420.82 68.353)" class="st0" d="M330.9-14.2h179.8v165.1H330.9z"/><g id="Layer_2_1_"><defs><path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)" d="M330.9-14.2h179.8v165.1H330.9z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><g id="Layer_1-2" class="st2"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" overflow="visible"/></clipPath><g class="st3"><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_7_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" overflow="visible"/></clipPath><g class="st4"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8"/></g><path transform="rotate(-37 420.799 68.802)" class="st6" d="M357.8 17h125.9v103.7H357.8z"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_9_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" overflow="visible"/></clipPath><g class="st8"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8"/></g><path transform="rotate(-37 420.799 68.802)" class="st9" d="M357.8 17h125.9v103.7H357.8z"/><path transform="rotate(-37.001 420.82 68.353)" class="st7" d="M330.9-14.2h179.8v165.1H330.9z"/></g><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"/></g></g></g>
-        </svg>
-
-      </a>
-    </div>
-
-
-
-</footer>
+  @@include('../components/_footer.html')
 
   <script src="js/main.min.js"></script>
 
