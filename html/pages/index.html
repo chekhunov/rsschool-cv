@@ -6,118 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Home</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="style.css?v=0.4">
+  <link rel="stylesheet" href="css/style.min.css?v=0.4">
 </head>
 
 
 <body id="body">
 
-  <header id="header-section" class="header wow animate__fadeInDown" data-wow-duration="1s">
-
-  <div class="container container--big">
-
-    <div class="header__top">
-
-      <a class="logo" href="#body">
-        <img class="logo__img" src="./images/logo.png" alt="logo image">
-      </a>
-
-      <nav class="menu">
-
-        <ul class="menu__list">
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#about">
-              Обо мне
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#skills">
-              Навыки
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#process">
-              Верстка
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#portfolio">
-              Портфолио
-            </a>
-
-          </li>
-
-          <li class="menu__item">
-            <a class="menu__link" href="index.html#connection">
-              Контакты
-            </a>
-          </li>
-
-          <li class="menu__item">
-
-            <a class="menu__link" href="index.html#connection">
-              Заявка
-            </a>
-
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <div class="menu-nav">
-
-        <button class="menu-nav__btn" href="#">
-
-          <svg class="menu-nav__find">
-            <use xlink:href="./images/sprite.svg#find"></use>
-          </svg>
-
-        </button>
-
-        <button class="menu-nav__popup">
-
-          <svg class="menu-nav__ellipse">
-            <use xlink:href="./images/sprite.svg#ellipse"></use>
-          </svg>
-
-        </button>
-
-      </div>
-
-    </div>
-
-    <div class="header__popup">
-
-      <form class="header__search" action="#">
-
-        <label for="sub-search" class="header__label">Search</label>
-        <input id="sub-search" class="header__form-input" type="search" name="search" placeholder="Search" required>
-
-        <button class="header__form-btn" type="submit">Search</button>
-
-      </form>
-
-    </div>
-
-  </div>
-
-</header>
+  @@include('../components/_header.html')
 
   <main class="main">
 
-    <section id="top-section" class="top" style="background-image: url('./images/bg.jpg');">
+    <section id="top-section" class="top" style="background-image: url('images/bg.jpg');">
 
       <div class="container">
 
@@ -278,7 +177,7 @@
 
 
 
-    <div class="myphoto wow animate__backInRight" style="background-image: url('./images/user.jpg');">
+    <div class="myphoto wow animate__backInRight" style="background-image: url('images/user.jpg');">
 
       images
 
@@ -1277,12 +1176,12 @@
 
         <div class="skills__certificats">
 
-          <img class="skills__img-certificat" src="./images/content/sertif/1.jpg" alt="images certificats">
+          <img class="skills__img-certificat" src="images/content/sertif/1.jpg" alt="images certificats">
 
-          <img class="skills__img-certificat skills__img-certificat--from" src="./images/content/sertif/2.png"
+          <img class="skills__img-certificat skills__img-certificat--from" src="images/content/sertif/2.png"
             alt="images certificats">
 
-          <img class="skills__img-certificat" src="./images/content/sertif/3.png" alt="images certificats">
+          <img class="skills__img-certificat" src="images/content/sertif/3.png" alt="images certificats">
 
         </div>
 
@@ -1413,7 +1312,7 @@
               <div class="process__img-box wow animate__fadeInDownBig">
 
                 <svg class="process__cut">
-                  <use xlink:href="./images/sprite.svg#cut"></use>
+                  <use xlink:href="images/sprite.svg#cut"></use>
                 </svg>
 
               </div>
@@ -1438,7 +1337,7 @@
               <div class="process__img-box wow animate__fadeInUpBig">
 
                 <svg class="process__html">
-                  <use xlink:href="./images/sprite.svg#html5"></use>
+                  <use xlink:href="images/sprite.svg#html5"></use>
                 </svg>
 
 
@@ -1452,7 +1351,7 @@
               <div class="process__img-box wow animate__fadeInDownBig">
 
                 <svg class="process__css">
-                  <use xlink:href="./images/sprite.svg#css"></use>
+                  <use xlink:href="images/sprite.svg#css"></use>
                 </svg>
 
 
@@ -1477,7 +1376,7 @@
               <div class="process__img-box wow animate__fadeInUpBig">
 
                 <svg class="process__adapt">
-                  <use xlink:href="./images/sprite.svg#adapt"></use>
+                  <use xlink:href="images/sprite.svg#adapt"></use>
                 </svg>
 
               </div>
@@ -1490,7 +1389,7 @@
               <div class="process__img-box wow animate__fadeInDownBig">
 
                 <svg class="process__inte">
-                  <use xlink:href="./images/sprite.svg#inte"></use>
+                  <use xlink:href="images/sprite.svg#inte"></use>
                 </svg>
 
 
@@ -1515,7 +1414,7 @@
               <div class="process__img-box wow animate__fadeInUpBig">
 
                 <svg class="process__danger">
-                  <use xlink:href="./images/sprite.svg#danger"></use>
+                  <use xlink:href="images/sprite.svg#danger"></use>
                 </svg>
 
               </div>
@@ -1641,7 +1540,7 @@
                                                                                                                     </code>
 
           &quot;&gt;*11&gt;img.partners__img
-          [src="./images/content/
+          [src="images/content/
           partners/$.png"
           alt="partners
           images"]
@@ -1655,47 +1554,47 @@
           <ul class="partners__list">
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/1.png" alt="partner1">
+              <img class="partners__img" src="images/content/1.png" alt="partner1">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/2.jpg" alt="partner2">
+              <img class="partners__img" src="images/content/2.jpg" alt="partner2">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/3.jpg" alt="partner3">
+              <img class="partners__img" src="images/content/3.jpg" alt="partner3">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/4.png" alt="partner4">
+              <img class="partners__img" src="images/content/4.png" alt="partner4">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/5.jpeg" alt="partner5">
+              <img class="partners__img" src="images/content/5.jpeg" alt="partner5">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/6.jpg" alt="partner6">
+              <img class="partners__img" src="images/content/6.jpg" alt="partner6">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/7.png" alt="partner7">
+              <img class="partners__img" src="images/content/7.png" alt="partner7">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/8.jpg" alt="partner8">
+              <img class="partners__img" src="images/content/8.jpg" alt="partner8">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/9.png" alt="partner9">
+              <img class="partners__img" src="images/content/9.png" alt="partner9">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/10.png" alt="partner10">
+              <img class="partners__img" src="images/content/10.png" alt="partner10">
             </li>
 
             <li class="partners__item">
-              <img class="partners__img" src="./images/content/11.png" alt="partner11">
+              <img class="partners__img" src="images/content/11.png" alt="partner11">
             </li>
 
           </ul>
@@ -1753,116 +1652,13 @@
 
           <div class="category portfolio__category">
 
-            <button class="category__btn shrink-border" data-filter="all">
-  Все
-</button>
-<button class="category__btn shrink-border" data-filter=".category-a">
-  Верстка
-</button>
-<button class="category__btn shrink-border" data-filter=".category-f">
-  "Mobile First"
-</button>
-<button class="category__btn shrink-border" data-filter=".category-b">
-  Верстка + React
-</button>
-<button class="category__btn shrink-border" data-filter=".category-c">
-  В работе
-</button>
+            @@include('../components/_category.html')
 
           </div>
 
           <div class="portfolio__inner">
 
-            <article class="card-portfolio mix category-a" href="#">
-
-  <a href="wawe-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/wawe-pp.jpg" alt="image wawe">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="marketing-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/marketing.jpg" alt="image marketing">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="suntour-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img card-portfolio__img--suntour" src="./images/content/portfolio/suntour.jpg"
-        alt="image suntour">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="glee-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/glee.jpg" alt="image glee">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="marcho-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/marcho.jpg" alt="image marcho">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="kratom-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/kratom.jpg" alt="image kratom">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-c" href="#">
-
-  <a href="bigstore-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/bigstore.png" alt="image bigstore">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-a" href="#">
-
-  <a href="itcluster-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/itcluster.jpg" alt="image it cluster">
-    </div>
-  </a>
-
-</article>
-
-<article class="card-portfolio mix category-f" href="#">
-
-  <a href="mobilefirst-page.html">
-    <div class="card-portfolio__image wow animate__zoomIn">
-      <img class="card-portfolio__img" src="./images/content/portfolio/mobilefirst.jpg" alt="image mobilefirst">
-    </div>
-  </a>
-
-</article>
+            @@include('../components/_card-project.html')
 
           </div>
 
@@ -2002,53 +1798,7 @@
 
   </main>
 
-  <footer class="footer">
-
-  <div class="container">
-
-    <div class="footer__bottom">
-
-      <p class="footer__copy">
-        ©2021 CopyRight Example. All rights reserved.
-      </p>
-
-      <!-- <div class="footer__menu footer-menu">
-
-        <ul class="footer-menu__list">
-
-          <li class="footer-menu__item">
-
-            <a class="footer-menu__link" href="#">
-              Home
-            </a>
-
-          </li>
-
-          <li class="footer-menu__item">
-
-            <a class="footer-menu__link" href="#">
-              Обо мне 
-            </a>
-
-          </li>
-
-          <li class="footer-menu__item">
-
-            <a class="footer-menu__link" href="#">
-              Контакты
-            </a>
-
-          </li>
-
-        </ul>
-
-      </div> -->
-
-    </div>
-
-  </div>
-
-</footer>
+  @@include('../components/_footer.html')
 
   <script src="js/main.min.js"></script>
 
