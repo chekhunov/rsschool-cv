@@ -87,7 +87,7 @@ app.use(cors(corsOptions));
 
 - Frontend developer
 
-  - May 2021 - December 2021 (7 months)
+  - May 2021 - December 2021 (8 months)
   - Laying Landing as an example kratom.chekhunov.info, finalization of the online store Kratomhelper.com Vue, Laravel, SQL, LESS, ICONMOON;Project Development as a REACT DeV + - Layout - React, Redux, SCSS, Iconmoon;
 
   - JavaScript • HTML • CSS • React • Адаптивная верстка • БЭМ • SCSS • Vue.js • LESS • SVG • Redux
