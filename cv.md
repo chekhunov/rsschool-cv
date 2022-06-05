@@ -69,13 +69,25 @@ app.use(cors(corsOptions));
 
 ### Work experience:
 
-#### Junior Frontend Developer
+#### Junior-Strong Frontend Developer
+
+**Codica**
+
+- Frontend developer
+
+  - December 2021 - present (5 months)
+  - Project [Clousale](https://www.clousale.com/)
+  - Project Development as a Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS;
+
+  - JavaScript • HTML • CSS • Vue • Адаптивная верстка • БЭМ • SCSS • VueX • Vuetify • SVG 
+
+  ***
 
 **Aimix-Kharkov**
 
 - Frontend developer
 
-  - May 2021 - present (7 months)
+  - May 2021 - December 2021 (7 months)
   - Laying Landing as an example kratom.chekhunov.info, finalization of the online store Kratomhelper.com Vue, Laravel, SQL, LESS, ICONMOON;Project Development as a REACT DeV + - Layout - React, Redux, SCSS, Iconmoon;
 
   - JavaScript • HTML • CSS • React • Адаптивная верстка • БЭМ • SCSS • Vue.js • LESS • SVG • Redux
