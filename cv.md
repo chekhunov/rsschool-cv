@@ -69,17 +69,17 @@ app.use(cors(corsOptions));
 
 ### Work experience:
 
-#### Frontend Developer
+#### Junior-Strong Frontend Developer
 
-**WebIProg-Kharkov**
+**Codica**
 
 - Frontend developer
 
-  - December 2021 - present (1 months)
+  - December 2021 - present (5 months)
+  - Project [Clousale](https://www.clousale.com/)
+  - Project Development as a Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS;
 
-  - JavaScript, Vue, React, ShopWare, SQL, ICONMOON;
-
-  - HTML • CSS • БЭМ • SCSS • LESS • SVG •
+  - JavaScript • HTML • CSS • Vue • Адаптивная верстка • БЭМ • SCSS • VueX • Vuetify • SVG 
 
   ***
 
@@ -88,7 +88,6 @@ app.use(cors(corsOptions));
 - Frontend developer
 
   - May 2021 - December 2021 (8 months)
-
   - Laying Landing as an example kratom.chekhunov.info, finalization of the online store Kratomhelper.com Vue, Laravel, SQL, LESS, ICONMOON;Project Development as a REACT DeV + - Layout - React, Redux, SCSS, Iconmoon;
 
   - JavaScript • HTML • CSS • React • Адаптивная верстка • БЭМ • SCSS • Vue.js • LESS • SVG • Redux
@@ -130,13 +129,10 @@ app.use(cors(corsOptions));
 [news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
 
-<br><br>
-
+**Now you work on it**<br>
 [molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
-### Codewars
-
-[codewars](https://www.codewars.com/users/chekhunov)
+Образование (включая курсы, семинары, лекции, онлайн-обучение)
 
 ### English
 
