@@ -132,8 +132,6 @@ app.use(cors(corsOptions));
 **Now you work on it**<br>
 [molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
-Образование (включая курсы, семинары, лекции, онлайн-обучение)
-
 ### English
 
 English level A-2
