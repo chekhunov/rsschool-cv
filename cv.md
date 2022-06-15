@@ -7,6 +7,7 @@
 ### Contact information:
 
 **Phone:** +380630677796<br>
+**Phone:** +36205105475<br>
 **Почта:** scdesignk@gmail.com<br>
 **Telegram:** @IhorChekhunov<br>
 **Stackoverflow:** 14351456<br>
@@ -77,7 +78,7 @@ app.use(cors(corsOptions));
 
   - December 2021 - present (5 months)
   - Project [Clousale](https://www.clousale.com/)
-  - Project Development as a Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS;
+  - Project Development as a Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS, Slack, Trello;
 
   - JavaScript • HTML • CSS • Vue • Адаптивная верстка • БЭМ • SCSS • VueX • Vuetify • SVG 
 
@@ -128,9 +129,10 @@ app.use(cors(corsOptions));
 [news](https://chekhunov.github.io/react-news-app/) - React, Scss, Icomoon.<br>
 [news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
+[molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 
 **Now you work on it**<br>
-[molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
+Project [Clousale](https://www.clousale.com/)
 
 ### English
 
