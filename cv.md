@@ -75,11 +75,14 @@ app.use(cors(corsOptions));
 
 - Frontend developer
 
-  - December 2021 - present (5 months)
+  - Jan 2022 - present (1 yr 4 mos)
   - Project [Clousale](https://www.clousale.com/)
-  - Project Development as a Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS;
+  - Project Development as a Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS, Adobe XD; 
+  
+  - Project [CakerHq](https://cakerhq.com/)
+  - Project Development as a React DeV + - Layout - Typescript, React-Next, React-Query, Mui v5, React-request, React-hook-form, Joke+RTL, Jest;
 
-  - JavaScript • HTML • CSS • Vue • Адаптивная верстка • БЭМ • SCSS • VueX • Vuetify • SVG 
+  - JavaScript • HTML • CSS • Vue • Адаптивная верстка • БЭМ • SCSS • VueX • Vuetify • SVG • Typescript • Next • Query • Mui v5 • Jest • Adobe • XD Figma
 
   ***
 
@@ -118,7 +121,7 @@ app.use(cors(corsOptions));
 
 ### My projects:
 
-[portfolio](http://chekhunov.info/) - my first portfolio<br><br>
+[portfolio](https://chekhunov.github.io/rsschool-cv/) - my first portfolio<br><br>
 [kratom](https://kratom.chekhunov.info/) - landing page/ Gulp, Jquery, Scss, Svg-sprite.<br>
 [kratom-git](https://github.com/chekhunov/kratom)<br><br>
 [bato](https://chekhunov.github.io/BatoTest/) - React, Scss, Icomoon (Castom sliders)<br>
@@ -128,9 +131,12 @@ app.use(cors(corsOptions));
 [news](https://chekhunov.github.io/react-news-app/) - React, Scss, Icomoon.<br>
 [news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
+[molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
+[Clousale](https://www.clousale.com/) - Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS, Adobe XD<br><br>
+[CakerHq](https://cakerhq.com/) - React DeV + - Layout - Typescript, React-Next, React-Query, Mui v5, React-request, React-hook-form, Joke+RTL, Jest<br><br>
 
 **Now you work on it**<br>
-[molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
+[orientalcaffe](https://orientalcaffe.com.ua/) - React, React-Query, SCSS.<br>
 
 Образование (включая курсы, семинары, лекции, онлайн-обучение)
 
