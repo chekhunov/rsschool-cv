@@ -127,12 +127,6 @@ Jira, Trello, Sonar
 ### My projects:
 
 [portfolio](https://chekhunov.github.io/rsschool-cv/) - my first portfolio<br><br>
-[kratom](https://kratom.chekhunov.info/) - landing page/ Gulp, Jquery, Scss, Svg-sprite.<br>
-[kratom-git](https://github.com/chekhunov/kratom)<br><br>
-[bato](https://chekhunov.github.io/BatoTest/) - React, Scss, Icomoon (Castom sliders)<br>
-[batoo-git](https://github.com/chekhunov/BatoTest) <br><br>
-[testPro](https://tftl.chekhunov.info/) - Gulp, Jquery, Scss (without plugins)<br>
-[testPro-git](https://github.com/chekhunov/TFTL) <br><br>
 [news](https://chekhunov.github.io/react-news-app/) - React, Scss, Icomoon.<br>
 [news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
