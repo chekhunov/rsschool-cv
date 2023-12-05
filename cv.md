@@ -127,8 +127,6 @@ Jira, Trello, Sonar
 ### My projects:
 
 [portfolio](https://chekhunov.github.io/rsschool-cv/) - my first portfolio<br><br>
-[news](https://chekhunov.github.io/react-news-app/) - React, Scss, Icomoon.<br>
-[news-git](https://github.com/chekhunov/react-news-app)<br><br>
 [kratomhelper](https://kratomhelper.com/) - Vue, Less. Adding Pages, Refinement - Update (Vue, Less, Icomoon, localization, Animation + Layout.)<br><br>
 [molot](https://imolot.com.ua/) - Vue, Vuex, Nuxt, Scss. Adding Pages, Refinement - Update (Animation + Layout.)<br>
 [Clousale](https://www.clousale.com/) - Vue DeV + - Layout - Vue, Vuex, Vuetify, SCSS, Adobe XD<br><br>
